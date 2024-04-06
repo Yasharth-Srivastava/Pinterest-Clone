@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+#main-form{
+    background-color: tomato;
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#mail{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#passwd{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
